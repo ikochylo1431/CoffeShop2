@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    var name: String = "Hi"
-
+    var name: String = ""
+    var name2: String = "This is Sparta"
 }
 
 
