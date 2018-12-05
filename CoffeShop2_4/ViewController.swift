@@ -18,5 +18,6 @@ class ViewController: UIViewController {
 
     var name: String = ""
     var name2: String = "This is Sparta"
+    var name3 = " "
 }
 
