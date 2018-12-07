@@ -19,13 +19,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brewed Awakening" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSv-eA-peF">
-                                <rect key="frame" x="353" y="357" width="660" height="310"/>
+                                <rect key="frame" x="353" y="357" width="568" height="310"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90151132440000004" green="1" blue="0.81412405970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="71"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="s1q-nD-G8T">
+                                <rect key="frame" x="560" y="27" width="246" height="322"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pp-hot-coffee-rf-istock" translatesAutoresizingMaskIntoConstraints="NO" id="Kmg-8C-AMJ">
+                                <rect key="frame" x="125" y="741" width="348" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coffee-mug-1493946797" translatesAutoresizingMaskIntoConstraints="NO" id="NHp-G2-6PS">
+                                <rect key="frame" x="917" y="741" width="348" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.9905365811318394" blue="0.90542936893540271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wid-BT-a2b"/>
@@ -54,4 +66,9 @@
             <point key="canvasLocation" x="59" y="89"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Unknown" width="175" height="245"/>
+        <image name="coffee-mug-1493946797" width="768" height="488"/>
+        <image name="pp-hot-coffee-rf-istock" width="2048" height="1536"/>
+    </resources>
 </document>
