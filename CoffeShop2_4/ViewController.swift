@@ -5,10 +5,12 @@
 //  Created by Illya Kochylo on 12/4/18.
 //  Copyright © 2018 Illya Kochylo. All rights reserved.
 //
-//I hope this works...
-//Does this work?
-//Ugh
-//I need help mentally...
+//
+
+
+
+
+
 import UIKit
 
 class ViewController: UIViewController {
