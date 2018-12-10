@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A30A09E421BB0C8100EB2F4D /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A09E321BB0C8100EB2F4D /* LaunchScreen.swift */; };
 		A38811A621B71281001A4B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38811A521B71281001A4B7E /* AppDelegate.swift */; };
 		A38811A821B71281001A4B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38811A721B71281001A4B7E /* ViewController.swift */; };
 		A38811AB21B71281001A4B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38811A921B71281001A4B7E /* Main.storyboard */; };
@@ -16,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A30A09E321BB0C8100EB2F4D /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		A38811A221B71281001A4B7E /* CoffeShop2_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeShop2_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38811A521B71281001A4B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A38811A721B71281001A4B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				A38811A521B71281001A4B7E /* AppDelegate.swift */,
 				A38811A721B71281001A4B7E /* ViewController.swift */,
-				A30A09E321BB0C8100EB2F4D /* LaunchScreen.swift */,
 				A38811A921B71281001A4B7E /* Main.storyboard */,
 				A38811AC21B71286001A4B7E /* Assets.xcassets */,
 				A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */,
@@ -140,7 +137,6 @@
 			files = (
 				A38811A821B71281001A4B7E /* ViewController.swift in Sources */,
 				A38811A621B71281001A4B7E /* AppDelegate.swift in Sources */,
-				A30A09E421BB0C8100EB2F4D /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
