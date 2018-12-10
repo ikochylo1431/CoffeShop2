@@ -13,7 +13,7 @@
         <!--Launch Screen-->
         <scene sceneID="xcY-Ew-OoF">
             <objects>
-                <viewController title="Launch Screen" id="LOS-T9-OdO" sceneMemberID="viewController">
+                <viewController title="Launch Screen" id="LOS-T9-OdO" customClass="LaunchScreen" customModule="CoffeShop2_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ZU-I6-Egi">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
