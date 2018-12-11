@@ -32,13 +32,32 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBz-iW-bT3">
+                                <rect key="frame" x="0.0" y="974" width="1366" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="..." id="A0r-q7-52z"/>
+                                    <tabBarItem title="1" id="wBg-Ot-n28"/>
+                                    <tabBarItem title="2" id="tDY-qp-ksd"/>
+                                    <tabBarItem title="Item" id="xlK-GT-G9Y"/>
+                                    <tabBarItem title="Item" id="Nfn-d1-FAn" userLabel="Calculator"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
                         <color key="backgroundColor" red="0.90151132440000004" green="1" blue="0.81412405970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bBz-iW-bT3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="D4u-8M-ZgT"/>
+                            <constraint firstItem="bBz-iW-bT3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="954" id="XBn-YO-WBA"/>
+                            <constraint firstItem="bBz-iW-bT3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="blx-4V-bYM"/>
+                            <constraint firstItem="bBz-iW-bT3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iJe-SB-ByR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59" y="89"/>
+            <point key="canvasLocation" x="58.857979502196187" y="88.4765625"/>
         </scene>
         <!--CheckoutViewController-->
         <scene sceneID="3R9-eq-mWc">

@@ -18,22 +18,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="IVf-jL-aQm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="IVf-jL-aQm">
                                 <rect key="frame" x="560" y="27" width="246" height="322"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="322" id="7ZS-8x-kiA"/>
+                                    <constraint firstAttribute="width" constant="246" id="LgU-AH-OQP"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pp-hot-coffee-rf-istock" translatesAutoresizingMaskIntoConstraints="NO" id="JDE-Le-tRM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pp-hot-coffee-rf-istock" translatesAutoresizingMaskIntoConstraints="NO" id="JDE-Le-tRM">
                                 <rect key="frame" x="125" y="741" width="348" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="348" id="7GJ-7e-nDq"/>
+                                    <constraint firstAttribute="height" constant="199" id="HvB-h5-vlK"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coffee-mug-1493946797" translatesAutoresizingMaskIntoConstraints="NO" id="G0s-av-I2K">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee-mug-1493946797" translatesAutoresizingMaskIntoConstraints="NO" id="G0s-av-I2K">
                                 <rect key="frame" x="917" y="741" width="348" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="199" id="Nlo-pj-gkc"/>
+                                    <constraint firstAttribute="width" constant="348" id="lrT-Ny-o2T"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Brewed Awakening" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ybw-sR-KOh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brewed Awakening" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ybw-sR-KOh">
                                 <rect key="frame" x="399" y="357" width="568" height="310"/>
                                 <color key="backgroundColor" red="0.90151132440000004" green="1" blue="0.81412405970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="568" id="0lu-VU-t2v"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="310" id="V2c-7f-zGT"/>
                                     <constraint firstAttribute="width" constant="568" id="rPR-aI-hxF"/>
                                     <constraint firstAttribute="height" constant="310" id="rkz-l8-1Ti"/>
                                 </constraints>
@@ -43,6 +54,16 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99053658109999998" blue="0.90542936890000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IVf-jL-aQm" firstAttribute="top" secondItem="V4q-c2-Ynp" secondAttribute="top" constant="3" id="7Ca-2v-OM1"/>
+                            <constraint firstItem="IVf-jL-aQm" firstAttribute="leading" secondItem="V4q-c2-Ynp" secondAttribute="leading" constant="560" id="VPv-ws-Leb"/>
+                            <constraint firstItem="V4q-c2-Ynp" firstAttribute="trailing" secondItem="G0s-av-I2K" secondAttribute="trailing" constant="101" id="XNa-Pa-Wa9"/>
+                            <constraint firstItem="V4q-c2-Ynp" firstAttribute="bottom" secondItem="G0s-av-I2K" secondAttribute="bottom" constant="64" id="ZFn-sV-ZzQ"/>
+                            <constraint firstItem="V4q-c2-Ynp" firstAttribute="bottom" secondItem="JDE-Le-tRM" secondAttribute="bottom" constant="64" id="dkN-WL-cfL"/>
+                            <constraint firstItem="Ybw-sR-KOh" firstAttribute="leading" secondItem="V4q-c2-Ynp" secondAttribute="leading" constant="399" id="hl7-rv-Nzj"/>
+                            <constraint firstItem="JDE-Le-tRM" firstAttribute="top" secondItem="Ybw-sR-KOh" secondAttribute="bottom" constant="74" id="tyg-eI-Cfr"/>
+                            <constraint firstItem="JDE-Le-tRM" firstAttribute="leading" secondItem="V4q-c2-Ynp" secondAttribute="leading" constant="125" id="u5d-Y1-Qn4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="V4q-c2-Ynp"/>
                     </view>
                 </viewController>
