@@ -41,7 +41,7 @@
                                     <tabBarItem title="1" id="wBg-Ot-n28"/>
                                     <tabBarItem title="2" id="tDY-qp-ksd"/>
                                     <tabBarItem title="Item" id="xlK-GT-G9Y"/>
-                                    <tabBarItem title="Item" id="Nfn-d1-FAn" userLabel="Calculator"/>
+                                    <tabBarItem title="Calculator" id="Nfn-d1-FAn" userLabel="Calculator"/>
                                 </items>
                             </tabBar>
                         </subviews>
