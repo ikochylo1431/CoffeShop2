@@ -10,7 +10,7 @@
 
 import UIKit
 
-class MainScreen: UIViewController {
+class Checkout: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
