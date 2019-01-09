@@ -26,6 +26,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="825-Ce-YmU">
+                                <rect key="frame" x="0.0" y="974" width="1366" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Items" id="deL-ba-5o1"/>
+                                    <tabBarItem title="Calculator" id="C9l-85-Uwl"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76133985689670358" blue="0.61358292907132639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="2Zm-8M-klJ"/>
@@ -47,8 +56,7 @@
                                 <rect key="frame" x="0.0" y="974" width="1366" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem title="..." id="GvV-uC-sVl"/>
-                                    <tabBarItem title="Uno" id="J1g-GY-BsW"/>
+                                    <tabBarItem title="Items" id="J1g-GY-BsW"/>
                                     <tabBarItem title="Calculator" id="xtI-bp-E9c"/>
                                 </items>
                             </tabBar>
@@ -84,6 +92,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y5d-Zt-Zq3">
+                                <rect key="frame" x="0.0" y="974" width="1366" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Items" id="WMW-Ej-q7i"/>
+                                    <tabBarItem title="Calculator" id="0jR-fP-IX8"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.96855635025596187" green="1" blue="0.78527846730244999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tXJ-Gg-UFN"/>
@@ -109,6 +126,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D7h-we-LfL">
+                                <rect key="frame" x="0.0" y="974" width="1366" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Items" id="FRJ-jQ-9bw"/>
+                                    <tabBarItem title="Calculator" id="sAL-W6-XjX"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.93956367514159089" green="0.82595026635826629" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="mKt-WX-20j"/>
@@ -134,6 +160,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NRD-u0-bhB">
+                                <rect key="frame" x="0.0" y="974" width="1366" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Items" id="zwm-Rg-gzc"/>
+                                    <tabBarItem title="Calculator" id="rKd-Gm-u2z"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.74953634400551494" blue="0.76164189726006448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="sXf-sM-sHB"/>
