@@ -10,11 +10,20 @@
 
 import UIKit
 
-class Checkout: UIViewController {
+class ItemsViewController: UIViewController {
 
+   
+    
+
+    @IBOutlet weak var item: UIBarButtonItem!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      item.target = revealViewController()
+        item.action = #selector(SWRevealViewController.revealToggle(_:))
+            
     }
     var String = "Hello moto"
 
