@@ -1,40 +1,30 @@
 //
-//  ViewController.swift
+//  ItemsViewController.swift
 //  CoffeShop2_4
 //
-//  Created by Illya Kochylo on 12/4/18.
-//  Copyright © 2018 Illya Kochylo. All rights reserved.
+//  Created by Illya Kochylo on 1/9/19.
+//  Copyright © 2019 Illya Kochylo. All rights reserved.
 //
-
-
 
 import UIKit
 
 class ItemsViewController: UIViewController {
 
-   
-    
-
-    @IBOutlet weak var item: UIBarButtonItem!
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-      item.target = revealViewController()
-        item.action = #selector(SWRevealViewController.revealToggle(_:))
-            
+
+        // Do any additional setup after loading the view.
     }
-    var String = "Hello moto"
+    
 
+    /*
+    // MARK: - Navigation
 
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
-
-
-
-
-
-
-
-
