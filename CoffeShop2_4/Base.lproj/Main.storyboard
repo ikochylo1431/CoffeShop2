@@ -61,7 +61,7 @@
         <!--ItemViewController-->
         <scene sceneID="dMV-eD-nFb">
             <objects>
-                <viewController title="ItemViewController" id="ulc-g6-f0i" sceneMemberID="viewController">
+                <viewController title="ItemViewController" id="ulc-g6-f0i" customClass="ItemsViewController" customModule="CoffeShop2_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iws-DV-ggX">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -353,7 +353,7 @@
         <!--CheckoutViewController-->
         <scene sceneID="qiO-sU-e7q">
             <objects>
-                <viewController title="CheckoutViewController" id="cu0-Rs-8t7" customClass="ItemsViewController" customModule="CoffeShop2_4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="CheckoutViewController" id="cu0-Rs-8t7" customClass="CheckoutViewController" customModule="CoffeShop2_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nQh-Ke-Vad">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
