@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vmS-Zz-x12">
-                                <rect key="frame" x="0.0" y="974" width="1366" height="50"/>
+                                <rect key="frame" x="0.0" y="924" width="1366" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <tabBarItem title="1" id="xkt-7f-obO"/>
@@ -27,7 +27,7 @@
                                 </items>
                             </tabBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transactions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a94-yd-JnD">
-                                <rect key="frame" x="529" y="492" width="308" height="40"/>
+                                <rect key="frame" x="529" y="442" width="308" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.80265278399999995" blue="0.98976807879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="textColor"/>
@@ -133,6 +133,9 @@
                                 <color key="backgroundColor" red="0.98281794190000005" green="1" blue="0.9219803231" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="  Checkout"/>
+                                <connections>
+                                    <segue destination="cu0-Rs-8t7" kind="presentation" id="K84-Bs-z31"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inh-Kt-Ut6">
                                 <rect key="frame" x="0.0" y="170" width="451" height="162"/>
@@ -140,6 +143,9 @@
                                 <color key="backgroundColor" red="0.98281794190000005" green="1" blue="0.9219803231" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title=" Transactions"/>
+                                <connections>
+                                    <segue destination="34K-Um-dEY" kind="presentation" id="6Tq-ZY-Ela"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mm8-O5-grq">
                                 <rect key="frame" x="0.0" y="340" width="451" height="162"/>
@@ -147,6 +153,9 @@
                                 <color key="backgroundColor" red="0.98281794190000005" green="1" blue="0.9219803231" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="  Items"/>
+                                <connections>
+                                    <segue destination="ulc-g6-f0i" kind="presentation" id="t0z-NT-zAM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6P-Rb-4bT">
                                 <rect key="frame" x="0.0" y="510" width="451" height="162"/>
@@ -154,6 +163,9 @@
                                 <color key="backgroundColor" red="0.98281794190000005" green="1" blue="0.9219803231" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="  Reports"/>
+                                <connections>
+                                    <segue destination="tOb-SS-n2j" kind="presentation" id="oFv-oV-tHH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1R-yJ-9MQ">
                                 <rect key="frame" x="0.0" y="680" width="451" height="162"/>
@@ -161,6 +173,9 @@
                                 <color key="backgroundColor" red="0.98281794190000005" green="1" blue="0.9219803231" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="  Settings"/>
+                                <connections>
+                                    <segue destination="7Gr-TT-k0d" kind="presentation" id="8xi-Ko-3hF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.77989033929999996" blue="0.39244626189999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -396,4 +411,11 @@
             <point key="canvasLocation" x="44" y="3683"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="K84-Bs-z31"/>
+        <segue reference="8xi-Ko-3hF"/>
+        <segue reference="oFv-oV-tHH"/>
+        <segue reference="t0z-NT-zAM"/>
+        <segue reference="6Tq-ZY-Ela"/>
+    </inferredMetricsTieBreakers>
 </document>
