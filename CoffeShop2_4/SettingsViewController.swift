@@ -10,11 +10,13 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
-    @IBOutlet weak var two: UIBarButtonItem!
+ 
+    @IBOutlet weak var item: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        item.target = revealViewController()
+        item.action = Selector("revealToggle:")
+        
     }
     
 
