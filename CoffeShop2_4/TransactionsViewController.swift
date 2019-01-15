@@ -10,11 +10,13 @@ import UIKit
 
 class TransactionsViewController: UIViewController {
 
-    @IBOutlet weak var four: UINavigationItem!
+   
+    @IBOutlet weak var item: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        item.target = revealViewController()
+        item.action = Selector("revealToggle:")
     }
     
 

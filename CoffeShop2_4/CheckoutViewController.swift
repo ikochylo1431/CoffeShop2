@@ -16,13 +16,10 @@ class CheckoutViewController: UIViewController {
     
 
     @IBOutlet weak var item: UIBarButtonItem!
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-      item.target = revealViewController()
-        item.action = #selector(SWRevealViewController.revealToggle(_:))
+    item.target = revealViewController()
+        item.action = Selector("revealToggle:")
             
     }
     var String = "Hello moto"
