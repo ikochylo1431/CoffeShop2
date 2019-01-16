@@ -350,7 +350,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="U7Y-n2-Xqu"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="item" destination="U7Y-n2-Xqu" id="KyZ-Yc-UAa"/>
+                        <outlet property="item" destination="U7Y-n2-Xqu" id="fMR-29-oQe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hF0-TN-2xY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -396,7 +396,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="UFp-Ps-JEU"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="item" destination="UFp-Ps-JEU" id="Mwn-o5-erm"/>
+                        <outlet property="item" destination="UFp-Ps-JEU" id="hpl-NP-ltl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1H-33-XkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
