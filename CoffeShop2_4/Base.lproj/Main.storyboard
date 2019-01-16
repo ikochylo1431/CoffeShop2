@@ -69,7 +69,7 @@
                         <viewLayoutGuide key="safeArea" id="2Zm-8M-klJ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Transaction" id="v3p-lf-TAl">
-                        <barButtonItem key="leftBarButtonItem" title="Four" id="co7-4c-gXV"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="co7-4c-gXV"/>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="weg-4A-erX">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Imp-ZC-NCg">
                                 <rect key="frame" x="1043" y="10" width="303" height="30"/>
@@ -204,7 +204,7 @@
                         <viewLayoutGuide key="safeArea" id="bXg-Wx-UBd"/>
                     </view>
                     <navigationItem key="navigationItem" title="Items" id="qxu-b7-Odc">
-                        <barButtonItem key="leftBarButtonItem" title="Five" id="ky4-4S-b2g"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="ky4-4S-b2g"/>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Lk7-fy-jiD">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1Pd-OU-jlo">
                                 <rect key="frame" x="1043" y="10" width="303" height="30"/>
@@ -216,6 +216,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="item" destination="ky4-4S-b2g" id="jas-Tp-XTw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3k-a2-FTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -344,7 +347,7 @@
                         <viewLayoutGuide key="safeArea" id="tXJ-Gg-UFN"/>
                     </view>
                     <navigationItem key="navigationItem" title="Reports" id="yRP-d5-Ov3">
-                        <barButtonItem key="leftBarButtonItem" title="Three" id="U7Y-n2-Xqu"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="U7Y-n2-Xqu"/>
                     </navigationItem>
                     <connections>
                         <outlet property="item" destination="U7Y-n2-Xqu" id="KyZ-Yc-UAa"/>
@@ -390,7 +393,7 @@
                         <viewLayoutGuide key="safeArea" id="mKt-WX-20j"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="nrm-TR-uNM">
-                        <barButtonItem key="leftBarButtonItem" title="Two" id="UFp-Ps-JEU"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="UFp-Ps-JEU"/>
                     </navigationItem>
                     <connections>
                         <outlet property="item" destination="UFp-Ps-JEU" id="Mwn-o5-erm"/>
