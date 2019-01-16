@@ -11,12 +11,13 @@ import UIKit
 class ReportsViewController: UIViewController {
 
    
+   
     @IBOutlet weak var item: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        item.target = revealViewController()
-      item.action = Selector("revealToggle:")
+        item.target = revealViewController()!
+         item.action = Selector("revealToggle:")
     }
     
 
