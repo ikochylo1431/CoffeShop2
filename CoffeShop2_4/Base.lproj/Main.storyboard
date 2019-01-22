@@ -69,7 +69,7 @@
                         <viewLayoutGuide key="safeArea" id="2Zm-8M-klJ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Transaction" id="v3p-lf-TAl">
-                        <barButtonItem key="leftBarButtonItem" title="Four" id="co7-4c-gXV"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="co7-4c-gXV"/>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="weg-4A-erX">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Imp-ZC-NCg">
                                 <rect key="frame" x="1043" y="10" width="303" height="30"/>
@@ -79,12 +79,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="item" destination="co7-4c-gXV" id="Xtb-1d-TPz"/>
+                        <outlet property="item" destination="co7-4c-gXV" id="Qge-3x-Xxt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05j-7Y-gGK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731" y="1496"/>
+            <point key="canvasLocation" x="751.53733528550504" y="2973.6328125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UTW-ft-wU0">
@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ltk-qi-gf9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1488" y="2304"/>
+            <point key="canvasLocation" x="1443.3382137628109" y="3682.6171874999995"/>
         </scene>
         <!--ItemViewController-->
         <scene sceneID="dMV-eD-nFb">
@@ -204,7 +204,7 @@
                         <viewLayoutGuide key="safeArea" id="bXg-Wx-UBd"/>
                     </view>
                     <navigationItem key="navigationItem" title="Items" id="qxu-b7-Odc">
-                        <barButtonItem key="leftBarButtonItem" title="Five" id="ky4-4S-b2g"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="ky4-4S-b2g"/>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Lk7-fy-jiD">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1Pd-OU-jlo">
                                 <rect key="frame" x="1043" y="10" width="303" height="30"/>
@@ -216,10 +216,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="item" destination="ky4-4S-b2g" id="jas-Tp-XTw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3k-a2-FTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731" y="2304"/>
+            <point key="canvasLocation" x="765.59297218155189" y="3682.6171874999995"/>
         </scene>
         <!--ViewController-->
         <scene sceneID="tne-QT-ifu">
@@ -233,8 +236,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="X9y-wc-lmr"/>
                     <connections>
-                        <segue destination="fc2-jD-7qC" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="YIQ-DF-Eip"/>
-                        <segue destination="92A-ng-HdI" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="GG6-6P-4Ih"/>
+                        <segue destination="92A-ng-HdI" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="xlC-JB-sIz"/>
+                        <segue destination="fc2-jD-7qC" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="g1b-N8-s7T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -255,6 +258,9 @@
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="  Checkout"/>
+                                <connections>
+                                    <segue destination="fc2-jD-7qC" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="1Vh-td-1wp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mm8-O5-grq">
                                 <rect key="frame" x="0.0" y="431" width="451" height="162"/>
@@ -262,6 +268,9 @@
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="  Items"/>
+                                <connections>
+                                    <segue destination="7OB-TR-eGu" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="aZx-YV-aTL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6P-Rb-4bT">
                                 <rect key="frame" x="0.0" y="646" width="451" height="162"/>
@@ -269,6 +278,9 @@
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="  Reports"/>
+                                <connections>
+                                    <segue destination="F9q-b0-vyn" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="PTt-jJ-7Xa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1R-yJ-9MQ">
                                 <rect key="frame" x="0.0" y="862" width="451" height="162"/>
@@ -276,6 +288,9 @@
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="  Settings"/>
+                                <connections>
+                                    <segue destination="hyf-7X-nsF" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="eIN-wc-Q6r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inh-Kt-Ut6">
                                 <rect key="frame" x="0.0" y="218" width="451" height="162"/>
@@ -283,6 +298,9 @@
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title=" Transactions"/>
+                                <connections>
+                                    <segue destination="6xG-iP-SpU" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="2ef-gv-WUw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -329,15 +347,15 @@
                         <viewLayoutGuide key="safeArea" id="tXJ-Gg-UFN"/>
                     </view>
                     <navigationItem key="navigationItem" title="Reports" id="yRP-d5-Ov3">
-                        <barButtonItem key="leftBarButtonItem" title="Three" id="U7Y-n2-Xqu"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="U7Y-n2-Xqu"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="three" destination="U7Y-n2-Xqu" id="YOt-p3-Bhj"/>
+                        <outlet property="item" destination="U7Y-n2-Xqu" id="fMR-29-oQe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hF0-TN-2xY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731" y="3061"/>
+            <point key="canvasLocation" x="728" y="2239"/>
         </scene>
         <!--SettingsViewController-->
         <scene sceneID="kLR-A7-gjW">
@@ -375,15 +393,15 @@
                         <viewLayoutGuide key="safeArea" id="mKt-WX-20j"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="nrm-TR-uNM">
-                        <barButtonItem key="leftBarButtonItem" title="Two" id="UFp-Ps-JEU"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="UFp-Ps-JEU"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="two" destination="UFp-Ps-JEU" id="PIQ-9h-kFe"/>
+                        <outlet property="item" destination="UFp-Ps-JEU" id="hpl-NP-ltl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1H-33-XkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752" y="3865"/>
+            <point key="canvasLocation" x="728" y="1513"/>
         </scene>
         <!--CheckoutViewController-->
         <scene sceneID="qiO-sU-e7q">
@@ -460,7 +478,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ngy-L2-gJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59" y="3866"/>
+            <point key="canvasLocation" x="44" y="1539"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PGW-Zm-EIj">
@@ -478,7 +496,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vLg-Wb-rHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59" y="3061"/>
+            <point key="canvasLocation" x="44" y="2239"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="reV-W8-Enf">
@@ -496,7 +514,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jk2-9m-ksk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59" y="1497"/>
+            <point key="canvasLocation" x="44" y="2931"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NFu-w4-UPp">
@@ -514,7 +532,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Cg-mx-lAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="59" y="2304"/>
+            <point key="canvasLocation" x="44" y="3683"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="g1b-N8-s7T"/>
+    </inferredMetricsTieBreakers>
 </document>
