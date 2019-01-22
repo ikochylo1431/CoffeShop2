@@ -205,14 +205,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Items" id="qxu-b7-Odc">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="ky4-4S-b2g"/>
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="Lk7-fy-jiD">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1Pd-OU-jlo">
-                                <rect key="frame" x="1043" y="10" width="303" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add Items"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Add item" id="pNI-Vz-jHR">
                             <connections>
-                                <segue destination="Swb-hT-b2T" kind="show" id="qKT-K2-IXP"/>
+                                <segue destination="Swb-hT-b2T" kind="presentation" id="wZ8-GI-h8y"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -263,7 +258,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mm8-O5-grq">
-                                <rect key="frame" x="0.0" y="431" width="451" height="162"/>
+                                <rect key="frame" x="0.0" y="340" width="451" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
@@ -273,7 +268,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6P-Rb-4bT">
-                                <rect key="frame" x="0.0" y="646" width="451" height="162"/>
+                                <rect key="frame" x="0.0" y="510" width="451" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
@@ -283,7 +278,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1R-yJ-9MQ">
-                                <rect key="frame" x="0.0" y="862" width="451" height="162"/>
+                                <rect key="frame" x="0.0" y="680" width="451" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
@@ -293,13 +288,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inh-Kt-Ut6">
-                                <rect key="frame" x="0.0" y="218" width="451" height="162"/>
+                                <rect key="frame" x="0.0" y="170" width="451" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title=" Transactions"/>
                                 <connections>
                                     <segue destination="6xG-iP-SpU" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="2ef-gv-WUw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="965-D0-5Cc">
+                                <rect key="frame" x="0.0" y="850" width="451" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <state key="normal" title="  Calculator"/>
+                                <connections>
+                                    <segue destination="KAe-e8-lhh" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="kAE-8M-lnY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -310,6 +315,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDe-Eu-e1c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1487.7013177159588" y="109.5703125"/>
+        </scene>
+        <!--CalculatorViewController-->
+        <scene sceneID="fVy-va-ni3">
+            <objects>
+                <viewController title="CalculatorViewController" id="WDT-yk-aMt" customClass="CalculatorViewController" customModule="CoffeShop2_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fj7-rg-btb">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cBk-Ag-Z7s">
+                                <rect key="frame" x="0.0" y="1024" width="1366" height="0.0"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Uno" id="UtM-Fa-Pan"/>
+                                    <tabBarItem title="Calculator" id="kPR-kW-qUr"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cBk-Ag-Z7s" firstAttribute="top" secondItem="v78-dt-dxM" secondAttribute="top" constant="954" id="7xu-Kr-wOT"/>
+                            <constraint firstItem="cBk-Ag-Z7s" firstAttribute="leading" secondItem="v78-dt-dxM" secondAttribute="leading" id="CSn-NG-PI5"/>
+                            <constraint firstItem="cBk-Ag-Z7s" firstAttribute="trailing" secondItem="v78-dt-dxM" secondAttribute="trailing" id="OJK-R9-9GH"/>
+                            <constraint firstItem="cBk-Ag-Z7s" firstAttribute="bottom" secondItem="v78-dt-dxM" secondAttribute="bottom" id="ZsJ-as-ADe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v78-dt-dxM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TYG-8B-d84">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="V2S-1W-TcT"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="item" destination="V2S-1W-TcT" id="GPE-ym-0eO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtL-7n-Zjj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3127" y="951"/>
         </scene>
         <!--ReportViewController-->
         <scene sceneID="vj5-IG-h4V">
@@ -534,8 +576,26 @@
             </objects>
             <point key="canvasLocation" x="44" y="3683"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WWF-cJ-8e1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KAe-e8-lhh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o2v-M7-CpI">
+                        <rect key="frame" x="0.0" y="20" width="1366" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WDT-yk-aMt" kind="relationship" relationship="rootViewController" id="AX9-vR-qPm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CDS-iy-UGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2402" y="951"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="g1b-N8-s7T"/>
+        <segue reference="1Vh-td-1wp"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -16,6 +16,7 @@
 		A3BC358521CBF52300A4C74C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358421CBF52300A4C74C /* SettingsViewController.swift */; };
 		A3BC358721CBF54C00A4C74C /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358621CBF54C00A4C74C /* ReportsViewController.swift */; };
 		A3BC358921CBF56300A4C74C /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358821CBF56300A4C74C /* TransactionsViewController.swift */; };
+		A3D8649E21F7AAF00062A4F8 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */; };
 		A3E1050021E6892C001E7F32 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E104FF21E6892C001E7F32 /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		A3BC358421CBF52300A4C74C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A3BC358621CBF54C00A4C74C /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
 		A3BC358821CBF56300A4C74C /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		A3E104FF21E6892C001E7F32 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				A3BC358621CBF54C00A4C74C /* ReportsViewController.swift */,
 				A3BC358821CBF56300A4C74C /* TransactionsViewController.swift */,
 				A3E104FF21E6892C001E7F32 /* ItemsViewController.swift */,
+				A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */,
 				A38811A921B71281001A4B7E /* Main.storyboard */,
 				A38811AC21B71286001A4B7E /* Assets.xcassets */,
 				A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 			files = (
 				A38811A821B71281001A4B7E /* CheckoutViewController.swift in Sources */,
 				A38811A621B71281001A4B7E /* AppDelegate.swift in Sources */,
+				A3D8649E21F7AAF00062A4F8 /* CalculatorViewController.swift in Sources */,
 				A3BC358921CBF56300A4C74C /* TransactionsViewController.swift in Sources */,
 				A3BC358721CBF54C00A4C74C /* ReportsViewController.swift in Sources */,
 				A3E1050021E6892C001E7F32 /* ItemsViewController.swift in Sources */,
