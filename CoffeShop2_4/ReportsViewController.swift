@@ -16,7 +16,7 @@ class ReportsViewController: UIViewController {
         super.viewDidLoad()
 
         item.target = revealViewController()
-      item.action = Selector("revealToggle:")
+        item.action = Selector("revealToggle:")
     }
     
 
