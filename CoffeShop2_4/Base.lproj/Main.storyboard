@@ -120,6 +120,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <segue destination="7OB-TR-eGu" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="BK6-9o-WtA"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Item Description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1hJ-20-d0i">
                                 <rect key="frame" x="600" y="615" width="166" height="30"/>
@@ -132,10 +135,11 @@
                         <color key="backgroundColor" red="0.78869818652849744" green="0.78869818652849744" blue="0.78869818652849744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3F2-jf-PgL"/>
                     </view>
+                    <navigationItem key="navigationItem" id="GVx-Rs-SWG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ltk-qi-gf9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1443.3382137628109" y="3682.6171874999995"/>
+            <point key="canvasLocation" x="1511" y="3707"/>
         </scene>
         <!--ItemViewController-->
         <scene sceneID="dMV-eD-nFb">
@@ -207,7 +211,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="ky4-4S-b2g"/>
                         <barButtonItem key="rightBarButtonItem" title="Add item" id="pNI-Vz-jHR">
                             <connections>
-                                <segue destination="Swb-hT-b2T" kind="presentation" id="wZ8-GI-h8y"/>
+                                <segue destination="Swb-hT-b2T" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="7pM-ph-GMo"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -819,6 +823,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="BK6-9o-WtA"/>
         <segue reference="1Vh-td-1wp"/>
     </inferredMetricsTieBreakers>
 </document>
