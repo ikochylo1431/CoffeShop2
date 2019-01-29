@@ -586,8 +586,12 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Yw7-1g-the">
                                         <rect key="frame" x="0.0" y="0.0" width="290" height="904"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="450-Ab-koO">
-                                                <rect key="frame" x="0.0" y="0.0" width="290" height="904"/>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9d-cH-2ZF">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="874"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="450-Ab-koO">
+                                                <rect key="frame" x="0.0" y="874" width="290" height="30"/>
                                                 <state key="normal" title="Hi Illya"/>
                                             </button>
                                         </subviews>
