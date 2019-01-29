@@ -520,13 +520,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vr-HH-fx1">
-                                <rect key="frame" x="529" y="638" width="308" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.80265278399999995" blue="0.98976807879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLF-sl-xe1">
                                 <rect key="frame" x="0.0" y="974" width="1366" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -535,15 +528,30 @@
                                     <tabBarItem title="Calculator" id="zsi-ZU-gPe"/>
                                 </items>
                             </tabBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Overview" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lX-hw-Ovu">
+                                <rect key="frame" x="0.0" y="70" width="1366" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cVy-dh-c1f">
+                                <rect key="frame" x="0.0" y="138" width="1366" height="836"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="bLF-sl-xe1" firstAttribute="top" secondItem="3vr-HH-fx1" secondAttribute="bottom" constant="296" id="DSC-68-UMu"/>
+                            <constraint firstItem="cVy-dh-c1f" firstAttribute="trailing" secondItem="tXJ-Gg-UFN" secondAttribute="trailing" id="FWb-ud-84x"/>
+                            <constraint firstItem="0lX-hw-Ovu" firstAttribute="trailing" secondItem="tXJ-Gg-UFN" secondAttribute="trailing" id="LC2-uM-omN"/>
+                            <constraint firstItem="cVy-dh-c1f" firstAttribute="leading" secondItem="tXJ-Gg-UFN" secondAttribute="leading" id="OcK-rE-AGB"/>
+                            <constraint firstItem="bLF-sl-xe1" firstAttribute="top" secondItem="cVy-dh-c1f" secondAttribute="bottom" id="SNE-1H-vhH"/>
                             <constraint firstItem="bLF-sl-xe1" firstAttribute="leading" secondItem="tXJ-Gg-UFN" secondAttribute="leading" id="SOk-Kz-mKu"/>
-                            <constraint firstItem="3vr-HH-fx1" firstAttribute="leading" secondItem="tXJ-Gg-UFN" secondAttribute="leading" constant="529" id="U1g-e3-4Ve"/>
+                            <constraint firstItem="cVy-dh-c1f" firstAttribute="top" secondItem="0lX-hw-Ovu" secondAttribute="bottom" constant="8" id="TI1-lD-eZc"/>
                             <constraint firstItem="bLF-sl-xe1" firstAttribute="trailing" secondItem="tXJ-Gg-UFN" secondAttribute="trailing" id="agc-vK-Wlu"/>
-                            <constraint firstItem="3vr-HH-fx1" firstAttribute="centerX" secondItem="bLF-sl-xe1" secondAttribute="centerX" id="fvU-TC-Bac"/>
+                            <constraint firstItem="0lX-hw-Ovu" firstAttribute="leading" secondItem="tXJ-Gg-UFN" secondAttribute="leading" id="kIh-bS-Jdy"/>
                             <constraint firstItem="bLF-sl-xe1" firstAttribute="bottom" secondItem="tXJ-Gg-UFN" secondAttribute="bottom" id="rPn-sp-8Fi"/>
+                            <constraint firstItem="cVy-dh-c1f" firstAttribute="top" secondItem="0lX-hw-Ovu" secondAttribute="bottom" constant="8" id="xH4-oQ-whh"/>
+                            <constraint firstItem="0lX-hw-Ovu" firstAttribute="top" secondItem="tXJ-Gg-UFN" secondAttribute="top" id="yTY-fj-tdn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tXJ-Gg-UFN"/>
                     </view>
@@ -556,7 +564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hF0-TN-2xY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="728" y="2239"/>
+            <point key="canvasLocation" x="727.81844802342596" y="2238.8671875"/>
         </scene>
         <!--SettingsViewController-->
         <scene sceneID="kLR-A7-gjW">
@@ -622,14 +630,6 @@
                                     <tabBarItem title="Calculator" id="xtI-bp-E9c"/>
                                 </items>
                             </tabBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Checkout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDN-A9-bGl">
-                                <rect key="frame" x="613" y="502" width="174" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.87385679951954121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sXf-sM-sHB"/>
