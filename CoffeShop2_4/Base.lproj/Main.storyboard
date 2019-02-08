@@ -313,24 +313,36 @@
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="7"/>
+                                                <connections>
+                                                    <action selector="sevenCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="E1d-zP-ehQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OP0-4U-1rH">
                                                 <rect key="frame" x="0.0" y="181" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="4"/>
+                                                <connections>
+                                                    <action selector="fourCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="fdu-3W-0ra"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFo-ip-Wy1">
                                                 <rect key="frame" x="0.0" y="362" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="1"/>
+                                                <connections>
+                                                    <action selector="oneCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="59e-Sp-X8N"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOG-ea-H7T">
                                                 <rect key="frame" x="0.0" y="543" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="0"/>
+                                                <connections>
+                                                    <action selector="nilCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="Ylc-HP-K79"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -342,24 +354,36 @@
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="8"/>
+                                                <connections>
+                                                    <action selector="eightCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="8LA-xd-BtA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5S-lI-UkD">
                                                 <rect key="frame" x="0.0" y="181" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="5"/>
+                                                <connections>
+                                                    <action selector="fiveCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="wyz-Ox-gnx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcu-bd-qmP">
                                                 <rect key="frame" x="0.0" y="362" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="2"/>
+                                                <connections>
+                                                    <action selector="twoCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="pM8-uS-wVA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgY-Vp-m2o">
                                                 <rect key="frame" x="0.0" y="543" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="minusCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="EI3-n7-6uf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -371,24 +395,36 @@
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="9"/>
+                                                <connections>
+                                                    <action selector="nineCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="NbM-SB-qNf"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eb5-5t-9g7">
                                                 <rect key="frame" x="0.0" y="181" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="6"/>
+                                                <connections>
+                                                    <action selector="sixCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="9ph-sn-5Q2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ift-Fz-ba8">
                                                 <rect key="frame" x="0.0" y="362" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="3"/>
+                                                <connections>
+                                                    <action selector="threeCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="lzt-CU-voq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cah-AD-6Ea">
                                                 <rect key="frame" x="0.0" y="543" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="plusCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="oOh-P9-Kd0"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -400,24 +436,36 @@
                                                 <color key="backgroundColor" red="0.98678940534591675" green="0.82428210973739624" blue="0.20000922679901123" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="Clear"/>
+                                                <connections>
+                                                    <action selector="clearCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="krL-dF-5aC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsO-7q-F3V">
                                                 <rect key="frame" x="0.0" y="181" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="/"/>
+                                                <connections>
+                                                    <action selector="divideCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="MKk-bI-8cO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5E-XN-Etr">
                                                 <rect key="frame" x="0.0" y="362" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="x"/>
+                                                <connections>
+                                                    <action selector="multiplyCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="or2-T2-t6g"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7h-9P-V9K">
                                                 <rect key="frame" x="0.0" y="543" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.99180561304092407" green="0.85441571474075317" blue="0.20129168033599854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="="/>
+                                                <connections>
+                                                    <action selector="equalCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="11d-l9-qtk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -448,6 +496,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="BD0-j4-Hxb"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="calculatorNumbers" destination="DUG-Sz-g8l" id="X35-Fp-pfx"/>
                         <outlet property="item" destination="BD0-j4-Hxb" id="vva-9N-BEZ"/>
                     </connections>
                 </viewController>
