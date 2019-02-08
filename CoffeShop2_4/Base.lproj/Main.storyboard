@@ -555,7 +555,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrf-cK-xeU">
                                 <rect key="frame" x="1076" y="952" width="290" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="Buy"/>
+                                <state key="normal" title="Checkout"/>
+                                <connections>
+                                    <segue destination="igI-oO-dEj" kind="show" id="aqW-Af-ZJD"/>
+                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aSU-Jm-Jot">
                                 <rect key="frame" x="0.0" y="70" width="1068" height="954"/>
@@ -853,6 +856,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KF3-2Z-sdF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2249.7803806734992" y="883.59375"/>
+        </scene>
+        <!--Checkout - Payment-->
+        <scene sceneID="3sk-Yf-QwO">
+            <objects>
+                <viewController title="Checkout - Payment" id="igI-oO-dEj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pb2-cZ-G4k">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4x-Rr-9QK">
+                                <rect key="frame" x="903" y="862" width="392" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Complete Checkout"/>
+                                <connections>
+                                    <segue destination="9La-so-l2Q" kind="show" id="f88-3C-Mkk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="w2q-cW-opx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="giR-qh-Nwd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2266.4714494875548" y="1677.5390625"/>
+        </scene>
+        <!--Checkout - Change/Thank you-->
+        <scene sceneID="uXV-l3-Pdl">
+            <objects>
+                <viewController title="Checkout - Change/Thank you" id="9La-so-l2Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RjH-en-uKV">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Checkout Complete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yS-E7-5vq">
+                                <rect key="frame" x="513" y="765" width="341" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Ph9-9J-hTh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p3o-8i-kfe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2942.8989751098093" y="1677.5390625"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
