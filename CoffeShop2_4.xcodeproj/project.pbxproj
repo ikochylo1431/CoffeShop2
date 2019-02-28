@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A38811A621B71281001A4B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38811A521B71281001A4B7E /* AppDelegate.swift */; };
 		A38811AB21B71281001A4B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38811A921B71281001A4B7E /* Main.storyboard */; };
-		A38811AD21B71286001A4B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38811AC21B71286001A4B7E /* Assets.xcassets */; };
 		A38811B021B71286001A4B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */; };
 		A3BC358321CBF26500A4C74C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358121CBF26500A4C74C /* SWRevealViewController.m */; };
 		A3BC358521CBF52300A4C74C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358421CBF52300A4C74C /* SettingsViewController.swift */; };
@@ -28,7 +27,6 @@
 		A38811A221B71281001A4B7E /* CoffeShop2_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeShop2_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38811A521B71281001A4B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A38811AA21B71281001A4B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A38811AC21B71286001A4B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CoffeShop2_4/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		A38811AF21B71286001A4B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A38811B121B71286001A4B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3BC358021CBF26400A4C74C /* CoffeShop2_4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeShop2_4-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */,
 				A38811A921B71281001A4B7E /* Main.storyboard */,
 				AB298DDB22248435000418C7 /* CollectionViewCell.swift */,
-				A38811AC21B71286001A4B7E /* Assets.xcassets */,
 				A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */,
 				A38811B121B71286001A4B7E /* Info.plist */,
 				A3BC358221CBF26500A4C74C /* SWRevealViewController.h */,
@@ -175,7 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A38811B021B71286001A4B7E /* LaunchScreen.storyboard in Resources */,
-				A38811AD21B71286001A4B7E /* Assets.xcassets in Resources */,
 				A38811AB21B71281001A4B7E /* Main.storyboard in Resources */,
 				ABE9691C21F9022F00F788F1 /* GoogleService-Info.plist in Resources */,
 			);
