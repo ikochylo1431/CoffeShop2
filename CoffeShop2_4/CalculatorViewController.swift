@@ -10,88 +10,10 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
 
-  
-    @IBOutlet weak var item: UIBarButtonItem!
-    
-    @IBAction func nilCalc(_ sender: UIButton) {
-        let zero = "\(0)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(zero)
-        
-    }
-    @IBAction func oneCalc(_ sender: UIButton) {
-        let one = "\(1)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(one)
-    }
-    @IBAction func twoCalc(_ sender: UIButton) {
-        let two = "\(2)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(two)
-
-    }
-    @IBAction func threeCalc(_ sender: UIButton) {
-        let three = "\(3)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(three)
-
-    }
-    @IBAction func fourCalc(_ sender: UIButton) {
-        let four = "\(4)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(four)
-
-    }
-    @IBAction func fiveCalc(_ sender: UIButton) {
-        let five = "\(5)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(five)
-
-    }
-    @IBAction func sixCalc(_ sender: UIButton) {
-        let six = "\(6)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(six)
-
-    }
-    @IBAction func sevenCalc(_ sender: UIButton) {
-        let seven = "\(7)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(seven)
-
-    }
-    @IBAction func eightCalc(_ sender: UIButton) {
-        let eight = "\(8)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(eight)
-
-    }
-    @IBAction func nineCalc(_ sender: UIButton) {
-        let nine = "\(9)"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(nine)
-
-    }
-    @IBAction func clearCalc(_ sender: UIButton) {
-        let emptyString = ""
-        calculatorNumbers.text = emptyString
-    }
-    @IBAction func equalCalc(_ sender: UIButton) {
-        let equal = "="
-        calculatorNumbers.text = calculatorNumbers.text?.appending(equal)
-
-    }
-    @IBAction func divideCalc(_ sender: UIButton) {
-        let divide = "/"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(divide)
-
-    }
-    @IBAction func multiplyCalc(_ sender: UIButton) {
-        let multiply = "x"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(multiply)
-
-    }
-    @IBAction func minusCalc(_ sender: UIButton) {
-        let minus = "-"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(minus)
-
-    }
-    @IBAction func plusCalc(_ sender: UIButton) {
-        let plus = "+"
-        calculatorNumbers.text = calculatorNumbers.text?.appending(plus)
-
-    }
-    @IBOutlet weak var calculatorNumbers: UILabel!
+    var firstNumberEntered: Double = 0
+    var secondNumberEntered: Double = 0
+    var math = false
+    var operation = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -100,8 +22,85 @@ class CalculatorViewController: UIViewController {
     }
     
     
+    @IBOutlet weak var calculatorNumbers: UILabel!
+    @IBOutlet weak var item: UIBarButtonItem!
+    
+    @IBAction func number(_ sender: UIButton) {
+        if math == true {
+            calculatorNumbers.text! = calculatorNumbers.text! + String(sender.tag)
+            math = false
+        } else {
+            calculatorNumbers.text! = calculatorNumbers.text! + String(sender.tag)
+            secondNumberEntered = Double(calculatorNumbers.text!)!
+        }
+        
+        
+    }
+   
+    
+    
+    
+    @IBAction func functions(_ sender: UIButton) {
+        
+        if sender.tag != 14 && calculatorNumbers.text != "" {
+            firstNumberEntered = Double(calculatorNumbers.text!)!
+        if sender.tag == 10 {
+            calculatorNumbers.text = "-"
+        } else if sender.tag == 11 {
+           calculatorNumbers.text = "+"
+        } else if sender.tag == 12 {
+            calculatorNumbers.text = "x"
+        } else if sender.tag == 13 {
+            calculatorNumbers.text = "/"
+        } else if sender.tag == 15 {
+            calculatorNumbers.text = ""
+            }
+            operation = sender.tag
+           math = true
+        }
+      
+     
+        if sender.tag == 14 {
+            if operation == 10 {
+                calculatorNumbers.text = String(firstNumberEntered + secondNumberEntered)
+            }
+            else if operation == 11 {
+                   calculatorNumbers.text = String(firstNumberEntered + secondNumberEntered)
+            }
+            else if operation == 12 {
+                  calculatorNumbers.text = String(firstNumberEntered + secondNumberEntered)
+            }
+            else if operation == 13 {
+                calculatorNumbers.text = String(firstNumberEntered + secondNumberEntered)
+            }
+        
+       
+         
+      
+            
+            
+        }
+    
+    }
+    
+  
+   
+    
+    
+        
+        
+    }
+    
     
 
-   
+    
+    
+    
 
-}
+
+
+    
+    
+
+
+
