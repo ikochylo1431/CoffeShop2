@@ -311,31 +311,31 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eOl-n5-uTN">
                                         <rect key="frame" x="0.0" y="0.0" width="338" height="719"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whc-zC-spn">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whc-zC-spn">
                                                 <rect key="frame" x="0.0" y="0.0" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="7"/>
                                                 <connections>
-                                                    <action selector="sevenCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="E1d-zP-ehQ"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="54b-CZ-QMx"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OP0-4U-1rH">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OP0-4U-1rH">
                                                 <rect key="frame" x="0.0" y="181" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="4"/>
                                                 <connections>
-                                                    <action selector="fourCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="fdu-3W-0ra"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="d3s-z4-hbe"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFo-ip-Wy1">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFo-ip-Wy1">
                                                 <rect key="frame" x="0.0" y="362" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="1"/>
                                                 <connections>
-                                                    <action selector="oneCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="59e-Sp-X8N"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="oze-JK-VpW"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOG-ea-H7T">
@@ -344,7 +344,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="0"/>
                                                 <connections>
-                                                    <action selector="nilCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="Ylc-HP-K79"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="ZMM-6G-OEm"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -352,40 +352,40 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qNX-hf-f40">
                                         <rect key="frame" x="343" y="0.0" width="337.5" height="719"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nm2-ja-CQP">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nm2-ja-CQP">
                                                 <rect key="frame" x="0.0" y="0.0" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="8"/>
                                                 <connections>
-                                                    <action selector="eightCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="8LA-xd-BtA"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="jBU-R4-VIU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5S-lI-UkD">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5S-lI-UkD">
                                                 <rect key="frame" x="0.0" y="181" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="5"/>
                                                 <connections>
-                                                    <action selector="fiveCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="wyz-Ox-gnx"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="gJi-S2-T3j"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcu-bd-qmP">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcu-bd-qmP">
                                                 <rect key="frame" x="0.0" y="362" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="2"/>
                                                 <connections>
-                                                    <action selector="twoCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="pM8-uS-wVA"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="Lg6-Ap-Uix"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgY-Vp-m2o">
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgY-Vp-m2o">
                                                 <rect key="frame" x="0.0" y="543" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="-"/>
                                                 <connections>
-                                                    <action selector="minusCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="EI3-n7-6uf"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="rcm-7g-e4Q"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -393,40 +393,40 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="LjO-IY-7Sv">
                                         <rect key="frame" x="685.5" y="0.0" width="338" height="719"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R75-sE-8ZH">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R75-sE-8ZH">
                                                 <rect key="frame" x="0.0" y="0.0" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="9"/>
                                                 <connections>
-                                                    <action selector="nineCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="NbM-SB-qNf"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="mcd-O4-zys"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eb5-5t-9g7">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eb5-5t-9g7">
                                                 <rect key="frame" x="0.0" y="181" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="6"/>
                                                 <connections>
-                                                    <action selector="sixCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="9ph-sn-5Q2"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="LNm-kw-nyF"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ift-Fz-ba8">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ift-Fz-ba8">
                                                 <rect key="frame" x="0.0" y="362" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="3"/>
                                                 <connections>
-                                                    <action selector="threeCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="lzt-CU-voq"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="7rC-pk-xTw"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cah-AD-6Ea">
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cah-AD-6Ea">
                                                 <rect key="frame" x="0.0" y="543" width="338" height="176"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="+"/>
                                                 <connections>
-                                                    <action selector="plusCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="oOh-P9-Kd0"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="cxX-Mg-hjB"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -434,40 +434,40 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QJ4-dH-8Gl">
                                         <rect key="frame" x="1028.5" y="0.0" width="337.5" height="719"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qG-9o-KTt">
+                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qG-9o-KTt">
                                                 <rect key="frame" x="0.0" y="0.0" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.98678940534591675" green="0.82428210973739624" blue="0.20000922679901123" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="Clear"/>
                                                 <connections>
-                                                    <action selector="clearCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="krL-dF-5aC"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="ufa-qm-lD4"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsO-7q-F3V">
+                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsO-7q-F3V">
                                                 <rect key="frame" x="0.0" y="181" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="/"/>
                                                 <connections>
-                                                    <action selector="divideCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="MKk-bI-8cO"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="YxP-OG-8Ib"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5E-XN-Etr">
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5E-XN-Etr">
                                                 <rect key="frame" x="0.0" y="362" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="x"/>
                                                 <connections>
-                                                    <action selector="multiplyCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="or2-T2-t6g"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="UQQ-fA-ev2"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7h-9P-V9K">
+                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7h-9P-V9K">
                                                 <rect key="frame" x="0.0" y="543" width="337.5" height="176"/>
                                                 <color key="backgroundColor" red="0.99180561304092407" green="0.85441571474075317" blue="0.20129168033599854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="="/>
                                                 <connections>
-                                                    <action selector="equalCalc:" destination="hBd-sx-aFp" eventType="touchUpInside" id="11d-l9-qtk"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="pAF-Vs-pqi"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -1009,8 +1009,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="f88-3C-Mkk"/>
-        <segue reference="1Vh-td-1wp"/>
+        <segue reference="aqW-Af-ZJD"/>
+        <segue reference="g1b-N8-s7T"/>
         <segue reference="L2k-fQ-dRM"/>
         <segue reference="UCS-8a-NpH"/>
     </inferredMetricsTieBreakers>
