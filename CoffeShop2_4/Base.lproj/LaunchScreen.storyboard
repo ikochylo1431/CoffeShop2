@@ -18,10 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coffee-mug-1493946797" translatesAutoresizingMaskIntoConstraints="NO" id="G0s-av-I2K">
-                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brewed Awakening" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ybw-sR-KOh">
                                 <rect key="frame" x="834" y="548" width="532" height="476"/>
                                 <constraints>
@@ -46,7 +42,4 @@
             <point key="canvasLocation" x="-624.15812591508052" y="78.515625"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="coffee-mug-1493946797" width="768" height="488"/>
-    </resources>
 </document>

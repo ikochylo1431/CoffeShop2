@@ -17,7 +17,6 @@
 		A3BC358921CBF56300A4C74C /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358821CBF56300A4C74C /* TransactionsViewController.swift */; };
 		A3D8649E21F7AAF00062A4F8 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */; };
 		A3E1050021E6892C001E7F32 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E104FF21E6892C001E7F32 /* ItemsViewController.swift */; };
-		AB298DDC22248435000418C7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB298DDB22248435000418C7 /* CollectionViewCell.swift */; };
 		ABE9691C21F9022F00F788F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABE9691B21F9022F00F788F1 /* GoogleService-Info.plist */; };
 		ACE655E567DD223E33A1EBF8 /* Pods_CoffeShop2_4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35306F6A3D3FD7ED1062981C /* Pods_CoffeShop2_4.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		A3BC358821CBF56300A4C74C /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		A3E104FF21E6892C001E7F32 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
-		AB298DDB22248435000418C7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		ABE9691B21F9022F00F788F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E56C8F51D1CC8ECAD1350837 /* Pods-CoffeShop2_4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeShop2_4.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeShop2_4/Pods-CoffeShop2_4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,7 +99,6 @@
 				A3E104FF21E6892C001E7F32 /* ItemsViewController.swift */,
 				A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */,
 				A38811A921B71281001A4B7E /* Main.storyboard */,
-				AB298DDB22248435000418C7 /* CollectionViewCell.swift */,
 				A38811AC21B71286001A4B7E /* Assets.xcassets */,
 				A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */,
 				A38811B121B71286001A4B7E /* Info.plist */,
@@ -241,7 +238,6 @@
 			files = (
 				A38811A621B71281001A4B7E /* AppDelegate.swift in Sources */,
 				A3D8649E21F7AAF00062A4F8 /* CalculatorViewController.swift in Sources */,
-				AB298DDC22248435000418C7 /* CollectionViewCell.swift in Sources */,
 				A3BC358921CBF56300A4C74C /* TransactionsViewController.swift in Sources */,
 				A3BC358721CBF54C00A4C74C /* ReportsViewController.swift in Sources */,
 				A3E1050021E6892C001E7F32 /* ItemsViewController.swift in Sources */,
