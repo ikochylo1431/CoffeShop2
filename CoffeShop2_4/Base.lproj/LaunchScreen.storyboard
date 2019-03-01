@@ -17,7 +17,19 @@
                     <view key="view" contentMode="scaleToFill" id="dyv-hW-sfv">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-02-28 at 2.01.43 PM.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ca-TS-oJZ">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3ca-TS-oJZ" firstAttribute="trailing" secondItem="V4q-c2-Ynp" secondAttribute="trailing" id="COI-K3-bmy"/>
+                            <constraint firstItem="3ca-TS-oJZ" firstAttribute="leading" secondItem="V4q-c2-Ynp" secondAttribute="leading" id="ErF-U3-4FO"/>
+                            <constraint firstAttribute="bottom" secondItem="3ca-TS-oJZ" secondAttribute="bottom" id="s25-6I-lcv"/>
+                            <constraint firstItem="3ca-TS-oJZ" firstAttribute="top" secondItem="dyv-hW-sfv" secondAttribute="top" id="toB-vY-MCc"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="V4q-c2-Ynp"/>
                     </view>
                 </viewController>
@@ -26,4 +38,7 @@
             <point key="canvasLocation" x="-624.15812591508052" y="78.515625"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Screen Shot 2019-02-28 at 2.01.43 PM.png" width="651" height="429"/>
+    </resources>
 </document>

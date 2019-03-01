@@ -618,7 +618,7 @@
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BtT-Gd-uZ7">
-                                <rect key="frame" x="0.0" y="70" width="1068" height="2205"/>
+                                <rect key="frame" x="0.0" y="70" width="1068" height="1349"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cYG-MM-HuU">
@@ -1009,7 +1009,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1Vh-td-1wp"/>
+        <segue reference="g1b-N8-s7T"/>
         <segue reference="L2k-fQ-dRM"/>
         <segue reference="UCS-8a-NpH"/>
     </inferredMetricsTieBreakers>
