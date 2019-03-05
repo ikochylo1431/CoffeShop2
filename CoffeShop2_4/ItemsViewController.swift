@@ -20,8 +20,6 @@ class ItemsViewController: UIViewController {
 
         item.target = revealViewController()
         item.action = Selector("revealToggle:")
-        
-        
     }
     
 
