@@ -138,7 +138,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IyG-fW-BzH">
-                                <rect key="frame" x="0.0" y="70" width="1366" height="904"/>
+                                <rect key="frame" x="0.0" y="20" width="1366" height="904"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tJY-FB-8c3">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="904"/>
@@ -186,6 +186,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="item" destination="ky4-4S-b2g" id="jas-Tp-XTw"/>
+                        <outlet property="itemTableView" destination="yJl-z8-GG0" id="10j-r5-EtL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g3k-a2-FTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1069,8 +1070,9 @@
         <image name="Twenty Dollar" width="703" height="629"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="1ai-iT-Gnf"/>
         <segue reference="1Vh-td-1wp"/>
         <segue reference="FQX-dC-rox"/>
-        <segue reference="M2o-72-7nI"/>
+        <segue reference="UCS-8a-NpH"/>
     </inferredMetricsTieBreakers>
 </document>
