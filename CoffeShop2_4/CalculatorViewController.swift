@@ -14,7 +14,7 @@ class CalculatorViewController: UIViewController {
     var secondNumberEntered: Double = 0
     var math = false
     var operation = 0
-    
+    var dot = "."
 
     
     override func viewDidLoad() {
@@ -27,20 +27,28 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var calculatorNumbers: UILabel!
     @IBOutlet weak var item: UIBarButtonItem!
     
+    
+    
+    
     @IBAction func number(_ sender: UIButton) {
         
-            
         
         
         if math == true {
+            
             calculatorNumbers.text! = String(sender.tag)
+         
             secondNumberEntered = Double(calculatorNumbers.text!)!
             math = false
-        } else {
             
+            
+        } else {
             calculatorNumbers.text! = calculatorNumbers.text! + String(sender.tag)
             secondNumberEntered = Double(calculatorNumbers.text!)!
         }
+        
+       
+        
         
         
     
@@ -64,6 +72,8 @@ class CalculatorViewController: UIViewController {
             calculatorNumbers.text = "x"
             } else if sender.tag == 13 {
             calculatorNumbers.text = "/"
+            } else if sender.tag == 16 {
+                calculatorNumbers.text = "."
             }
             operation = sender.tag
             math = true
@@ -88,6 +98,8 @@ class CalculatorViewController: UIViewController {
             if operation == 13 {
                 calculatorNumbers.text = String(firstNumberEntered / secondNumberEntered)
             }
+            
+           
     }
         
 
@@ -105,6 +117,8 @@ class CalculatorViewController: UIViewController {
         
     }
     
+    @IBAction func dotButton(_ sender: UIButton) {
+    }
     
     
 

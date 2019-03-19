@@ -379,13 +379,15 @@
                                                     <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="Lg6-Ap-Uix"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgY-Vp-m2o">
+                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akQ-Nr-f9t">
                                                 <rect key="frame" x="0.0" y="543" width="337.5" height="176"/>
-                                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                                <state key="normal" title="-"/>
+                                                <state key="normal" title="."/>
                                                 <connections>
-                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="rcm-7g-e4Q"/>
+                                                    <action selector="dotButton:" destination="hBd-sx-aFp" eventType="touchUpInside" id="VRO-Qn-diA"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="O5D-zS-XXd"/>
+                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="lui-hj-Mur"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -420,13 +422,13 @@
                                                     <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="7rC-pk-xTw"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cah-AD-6Ea">
+                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7h-9P-V9K">
                                                 <rect key="frame" x="0.0" y="543" width="338" height="176"/>
-                                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.99180561304092407" green="0.85441571474075317" blue="0.20129168033599854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                                <state key="normal" title="+"/>
+                                                <state key="normal" title="="/>
                                                 <connections>
-                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="cxX-Mg-hjB"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="pAF-Vs-pqi"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -435,7 +437,7 @@
                                         <rect key="frame" x="1028.5" y="0.0" width="337.5" height="719"/>
                                         <subviews>
                                             <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qG-9o-KTt">
-                                                <rect key="frame" x="0.0" y="0.0" width="337.5" height="176"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="337.5" height="140"/>
                                                 <color key="backgroundColor" red="0.98678940534591675" green="0.82428210973739624" blue="0.20000922679901123" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="Clear"/>
@@ -444,7 +446,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WsO-7q-F3V">
-                                                <rect key="frame" x="0.0" y="181" width="337.5" height="176"/>
+                                                <rect key="frame" x="0.0" y="145" width="337.5" height="139.5"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="/"/>
@@ -453,7 +455,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5E-XN-Etr">
-                                                <rect key="frame" x="0.0" y="362" width="337.5" height="176"/>
+                                                <rect key="frame" x="0.0" y="289.5" width="337.5" height="140"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal" title="x"/>
@@ -461,13 +463,22 @@
                                                     <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="UQQ-fA-ev2"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7h-9P-V9K">
-                                                <rect key="frame" x="0.0" y="543" width="337.5" height="176"/>
-                                                <color key="backgroundColor" red="0.99180561304092407" green="0.85441571474075317" blue="0.20129168033599854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cah-AD-6Ea">
+                                                <rect key="frame" x="0.0" y="434.5" width="337.5" height="139.5"/>
+                                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                                <state key="normal" title="="/>
+                                                <state key="normal" title="+"/>
                                                 <connections>
-                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="pAF-Vs-pqi"/>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="cxX-Mg-hjB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgY-Vp-m2o">
+                                                <rect key="frame" x="0.0" y="579" width="337.5" height="140"/>
+                                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="rcm-7g-e4Q"/>
                                                 </connections>
                                             </button>
                                         </subviews>
