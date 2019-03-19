@@ -48,8 +48,9 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     
     
-    
-    @IBAction func onAddButtonPressed(_ sender: UIBarButtonItem) {
+    @IBAction func onAddButtonPressed(_ sender: Any) {
+
+//    @IBAction func onAddButtonPressed(_ sender: UIBarButtonItem) {
     let alert = UIAlertController(title: "Add New Item", message: nil, preferredStyle: UIAlertController.Style.alert)
     
     alert.addTextField { (textField) in
@@ -84,6 +85,7 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     present(alert, animated: true, completion: nil)
     }
     
+  
     @IBAction func onEditButtonPressed(_ sender: UIBarButtonItem) {
     if sender.tag == 0 {
     itemTableView.isEditing = true
@@ -94,21 +96,21 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     sender.tag = 0
     }
     }
-    
+
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
     if editingStyle == UITableViewCell.EditingStyle.delete {
     itemArray.remove(at: indexPath.row)
     itemTableView.reloadData()
-    
+
     }
     }
-    
-    
-    
+
+
+
     func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
     return true
     }
-    
+
     func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
     let ITEM = itemArray[sourceIndexPath.row]
     itemArray.remove(at: sourceIndexPath.row)

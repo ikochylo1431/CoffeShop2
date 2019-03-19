@@ -109,6 +109,7 @@
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
+                                    <action selector="onAddButtonPressed:" destination="Oy7-dI-VWA" eventType="touchUpInside" id="ilI-1o-emo"/>
                                     <segue destination="ulc-g6-f0i" kind="show" id="UCS-8a-NpH"/>
                                 </connections>
                             </button>
@@ -126,6 +127,7 @@
                     <navigationItem key="navigationItem" id="EfU-Ws-UfB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ltk-qi-gf9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Oy7-dI-VWA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1455" y="3683"/>
         </scene>
@@ -138,7 +140,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IyG-fW-BzH">
-                                <rect key="frame" x="0.0" y="20" width="1366" height="904"/>
+                                <rect key="frame" x="0.0" y="70" width="1366" height="904"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tJY-FB-8c3">
                                         <rect key="frame" x="0.0" y="0.0" width="361" height="904"/>
@@ -158,6 +160,16 @@
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yJl-z8-GG0">
                                                 <rect key="frame" x="0.0" y="0.0" width="1005" height="904"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <prototypes>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="FTu-Gf-Owu">
+                                                        <rect key="frame" x="0.0" y="28" width="1005" height="44"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FTu-Gf-Owu" id="i9q-9Z-Hqs">
+                                                            <rect key="frame" x="0.0" y="0.0" width="1005" height="43.5"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </tableViewCellContentView>
+                                                    </tableViewCell>
+                                                </prototypes>
                                             </tableView>
                                         </subviews>
                                     </stackView>
@@ -1070,9 +1082,8 @@
         <image name="Twenty Dollar" width="703" height="629"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1ai-iT-Gnf"/>
         <segue reference="1Vh-td-1wp"/>
         <segue reference="FQX-dC-rox"/>
-        <segue reference="UCS-8a-NpH"/>
+        <segue reference="M2o-72-7nI"/>
     </inferredMetricsTieBreakers>
 </document>
