@@ -386,8 +386,6 @@
                                                 <state key="normal" title="."/>
                                                 <connections>
                                                     <action selector="dotButton:" destination="hBd-sx-aFp" eventType="touchUpInside" id="VRO-Qn-diA"/>
-                                                    <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="O5D-zS-XXd"/>
-                                                    <action selector="number:" destination="hBd-sx-aFp" eventType="touchUpInside" id="lui-hj-Mur"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -449,7 +447,7 @@
                                                 <rect key="frame" x="0.0" y="145" width="337.5" height="139.5"/>
                                                 <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                                <state key="normal" title="/"/>
+                                                <state key="normal" title=":"/>
                                                 <connections>
                                                     <action selector="functions:" destination="hBd-sx-aFp" eventType="touchUpInside" id="YxP-OG-8Ib"/>
                                                 </connections>
