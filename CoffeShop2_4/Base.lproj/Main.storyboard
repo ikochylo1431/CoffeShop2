@@ -111,6 +111,7 @@
                                 <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="onAddButtonPressed:" destination="Oy7-dI-VWA" eventType="touchUpInside" id="ilI-1o-emo"/>
+                                    <segue destination="ulc-g6-f0i" kind="show" id="dbq-c7-qgI"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Item Description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1hJ-20-d0i">
@@ -149,7 +150,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IyG-fW-BzH">
-                                <rect key="frame" x="0.0" y="70" width="1366" height="904"/>
+                                <rect key="frame" x="0.0" y="20" width="1366" height="904"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="DmC-ub-yZj">
                                         <rect key="frame" x="0.0" y="0.0" width="1366" height="904"/>
@@ -189,6 +190,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Add Item" id="ZtJ-ej-p4J">
                             <connections>
                                 <action selector="onAddButtonPressed:" destination="ulc-g6-f0i" id="dxx-gY-PTy"/>
+                                <segue destination="Swb-hT-b2T" kind="show" id="wZj-E6-go0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -1087,7 +1089,9 @@
         <image name="Twenty Dollar" width="703" height="629"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="wZj-E6-go0"/>
         <segue reference="g1b-N8-s7T"/>
         <segue reference="FQX-dC-rox"/>
+        <segue reference="dbq-c7-qgI"/>
     </inferredMetricsTieBreakers>
 </document>
