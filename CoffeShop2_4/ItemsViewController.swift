@@ -12,7 +12,7 @@ import Firebase
 
 class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var itemArray: [Item] = []
+    var itemArray = [Item]()
     
     @IBOutlet weak var item: UIBarButtonItem!
     @IBOutlet weak var itemTableView: UITableView!
@@ -48,10 +48,6 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     
     @IBAction func onAddButtonPressed(_ sender: UIBarButtonItem) {
-    //  @IBAction func onAddButtonPressed(_ sender: Any) {
-        
-        print(db)
-        
         let alert = UIAlertController(title: "Add New Item", message: nil, preferredStyle: UIAlertController.Style.alert)
         
         alert.addTextField { (textField) in
