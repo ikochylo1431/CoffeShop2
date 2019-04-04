@@ -15,6 +15,8 @@ class CalculatorViewController: UIViewController {
     var math = false
     var operation = 0
     var dot = "."
+    var dotOperation = true
+   
 
     
     override func viewDidLoad() {
@@ -45,6 +47,7 @@ class CalculatorViewController: UIViewController {
         } else {
             calculatorNumbers.text! = calculatorNumbers.text! + String(sender.tag)
             secondNumberEntered = Double(calculatorNumbers.text!)!
+        
         }
         
        
@@ -63,22 +66,23 @@ class CalculatorViewController: UIViewController {
         if sender.tag != 14 && sender.tag != 15 && calculatorNumbers.text != ""  {
             
             firstNumberEntered = Double(calculatorNumbers.text!)!
+          
             
             if sender.tag == 10 {
-            calculatorNumbers.text = "-"
+            calculatorNumbers.text = String(firstNumberEntered) + "-"
+            
             } else if sender.tag == 11 {
-           calculatorNumbers.text = "+"
+            calculatorNumbers.text = String(firstNumberEntered) + "+"
             } else if sender.tag == 12 {
-            calculatorNumbers.text = "x"
+            calculatorNumbers.text = String(firstNumberEntered) + "x"
             } else if sender.tag == 13 {
-            calculatorNumbers.text = "/"
-            } else if sender.tag == 16 {
-                calculatorNumbers.text = "."
+            calculatorNumbers.text = String(firstNumberEntered) + ":"
             }
+            
+
             operation = sender.tag
             math = true
         }
-      
      
        else if sender.tag == 14 {
             if operation == 10 {
@@ -99,6 +103,7 @@ class CalculatorViewController: UIViewController {
                 calculatorNumbers.text = String(firstNumberEntered / secondNumberEntered)
             }
             
+            
            
     }
         
@@ -118,9 +123,13 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func dotButton(_ sender: UIButton) {
+        if dotOperation == true {
+         calculatorNumbers.text! += dot
+           
+        }
+        
     }
-    
-    
+   
 
 
 }
