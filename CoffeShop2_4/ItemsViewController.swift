@@ -37,7 +37,9 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "myCell")!
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "myCell") else {
+            return UITableViewCell()
+        }
         cell.textLabel?.text = itemArray[indexPath.row].name
         return cell
         
@@ -45,7 +47,8 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     
     
-    @IBAction func onAddButtonPressed(_ sender: Any) {
+    @IBAction func onAddButtonPressed(_ sender: UIBarButtonItem) {
+    //  @IBAction func onAddButtonPressed(_ sender: Any) {
         
         print(db)
         

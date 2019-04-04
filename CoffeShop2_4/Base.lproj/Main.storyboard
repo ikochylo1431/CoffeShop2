@@ -186,7 +186,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Items" id="qxu-b7-Odc">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="ky4-4S-b2g"/>
-                        <barButtonItem key="rightBarButtonItem" title="Add Item" id="ZtJ-ej-p4J"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add Item" id="ZtJ-ej-p4J">
+                            <connections>
+                                <action selector="onAddButtonPressed:" destination="ulc-g6-f0i" id="dxx-gY-PTy"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="item" destination="ky4-4S-b2g" id="jas-Tp-XTw"/>
