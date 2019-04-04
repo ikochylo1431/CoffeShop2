@@ -18,17 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Huskey Brewed Awakening" translatesAutoresizingMaskIntoConstraints="NO" id="VHe-wQ-4qe">
-                                <rect key="frame" x="0.0" y="24" width="1366" height="980"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Huskey Brewed Awakening" translatesAutoresizingMaskIntoConstraints="NO" id="Ldg-ld-gah">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="VHe-wQ-4qe" firstAttribute="leading" secondItem="V4q-c2-Ynp" secondAttribute="leading" id="JMR-q6-Onj"/>
-                            <constraint firstItem="V4q-c2-Ynp" firstAttribute="bottom" secondItem="VHe-wQ-4qe" secondAttribute="bottom" id="MsY-uw-6q9"/>
-                            <constraint firstItem="VHe-wQ-4qe" firstAttribute="top" secondItem="V4q-c2-Ynp" secondAttribute="top" id="S4z-nq-RhH"/>
-                            <constraint firstItem="V4q-c2-Ynp" firstAttribute="trailing" secondItem="VHe-wQ-4qe" secondAttribute="trailing" id="Sj8-EE-YSE"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="V4q-c2-Ynp"/>
                     </view>
                 </viewController>
