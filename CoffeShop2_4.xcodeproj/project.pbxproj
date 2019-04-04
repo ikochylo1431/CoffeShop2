@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A37ABA4622568AAB005883C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37ABA4522568AAA005883C5 /* Assets.xcassets */; };
 		A38811A621B71281001A4B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38811A521B71281001A4B7E /* AppDelegate.swift */; };
 		A38811AB21B71281001A4B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38811A921B71281001A4B7E /* Main.storyboard */; };
 		A38811B021B71286001A4B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */; };
@@ -25,7 +26,7 @@
 /* Begin PBXFileReference section */
 		35306F6A3D3FD7ED1062981C /* Pods_CoffeShop2_4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeShop2_4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880765B8D833E6CBB65021CD /* Pods-CoffeShop2_4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeShop2_4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeShop2_4/Pods-CoffeShop2_4.debug.xcconfig"; sourceTree = "<group>"; };
-		A33F2A442229C90400B4CDE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = /Users/ikochylo1431/Documents/CoffeShop2_0NEW/CoffeShop2_4/Images.xcassets; sourceTree = "<absolute>"; };
+		A37ABA4522568AAA005883C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		A38811A221B71281001A4B7E /* CoffeShop2_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeShop2_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38811A521B71281001A4B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A38811AA21B71281001A4B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,7 +105,7 @@
 				A3B69206222DB7D800A698B0 /* CheckoutViewController.swift */,
 				A38811A921B71281001A4B7E /* Main.storyboard */,
 				A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */,
-				A33F2A442229C90400B4CDE1 /* Images.xcassets */,
+				A37ABA4522568AAA005883C5 /* Assets.xcassets */,
 				ABCD388A2228781900911D00 /* Screen Shot 2019-02-28 at 2.01.43 PM.png */,
 				A38811B121B71286001A4B7E /* Info.plist */,
 				A3BC358221CBF26500A4C74C /* SWRevealViewController.h */,
@@ -180,6 +181,7 @@
 				A38811AB21B71281001A4B7E /* Main.storyboard in Resources */,
 				ABE9691C21F9022F00F788F1 /* GoogleService-Info.plist in Resources */,
 				ABCD388B2228781900911D00 /* Screen Shot 2019-02-28 at 2.01.43 PM.png in Resources */,
+				A37ABA4622568AAB005883C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
