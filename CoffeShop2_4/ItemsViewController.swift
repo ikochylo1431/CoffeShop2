@@ -25,6 +25,10 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         itemTableView.delegate = self
         itemTableView.dataSource = self
         db = Database.database().reference().child("item")
+        
+        item.target = revealViewController()!
+        item.action = Selector("revealToggle:")
+        
     }
     
     
