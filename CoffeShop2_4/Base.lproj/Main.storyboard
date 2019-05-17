@@ -111,7 +111,6 @@
                                 <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="onAddButtonPressed:" destination="Oy7-dI-VWA" eventType="touchUpInside" id="ilI-1o-emo"/>
-                                    <segue destination="ulc-g6-f0i" kind="show" id="dbq-c7-qgI"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Item Description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1hJ-20-d0i">
@@ -190,7 +189,6 @@
                         <barButtonItem key="rightBarButtonItem" title="Add Item" id="ZtJ-ej-p4J">
                             <connections>
                                 <action selector="onAddButtonPressed:" destination="ulc-g6-f0i" id="dxx-gY-PTy"/>
-                                <segue destination="Swb-hT-b2T" kind="show" id="wZj-E6-go0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -1091,6 +1089,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="1Vh-td-1wp"/>
         <segue reference="FQX-dC-rox"/>
-        <segue reference="M2o-72-7nI"/>
     </inferredMetricsTieBreakers>
 </document>
