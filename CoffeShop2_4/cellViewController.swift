@@ -10,7 +10,13 @@ import UIKit
 
 class cellViewController: UICollectionViewCell {
 
-    @IBOutlet weak var buttonName: UIButton!
+    @IBAction func button(_ sender: Any) {
+        
+        
+    }
+    
+        
+        
     
 
     
