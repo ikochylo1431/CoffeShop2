@@ -5,10 +5,8 @@
 //  Created by Illya Kochylo on 1/9/19.
 //  Copyright © 2019 Illya Kochylo. All rights reserved.
 //
-
 import UIKit
 import Firebase
-
 
 class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIImagePickerControllerDelegate {
     
@@ -16,25 +14,26 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var item: UIBarButtonItem!
     @IBOutlet weak var itemTableView: UITableView!
-    
     var db: DatabaseReference!
     var imagePickers:UIImagePickerController?
-    //-------------------------------------------------------------------------
+
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         itemTableView.delegate = self
         itemTableView.dataSource = self
-        imagePickers?.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
-        
-        addImagePickerToContainerView()
+     //   imagePickers?.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
+       // addImagePickerToContainerView()
         db = Database.database().reference().child("item")
         
         item.target = revealViewController()!
         item.action = Selector("revealToggle:")
         
     }
-    
-    
+
     override func viewWillAppear(_ animated: Bool) {
         itemTableView.reloadData()
     }
@@ -77,13 +76,29 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let nameOfItem = alert.textFields?[0]
             let itemDescription = alert.textFields?[1]
             let costOfItem = alert.textFields?[2]
+            let picture = alert.textFields?[3]
             let newItem = Item(name: (nameOfItem?.text)!, description: (itemDescription?.text)!, cost: Int((costOfItem?.text)!)!)
             self.db.child(newItem.name).child("Item Name").setValue(newItem.name)
             self.db.child(newItem.name).child("Item Description").setValue(newItem.description)
             self.db.child(newItem.name).child("Cost of Item").setValue(newItem.cost)
             self.itemArray.append(newItem)
             self.itemTableView.reloadData()
-           //, alert.
+            
+            
+//            if UIImagePickerController.isSourceTypeAvailable(.camera){
+//                self.imagePickers?.takePicture()
+//
+//            } else{
+//
+//            }
+        
+//        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+//
+//            imageTaken.image = (info["UIImagePickerControllerOriginalImage"] as! UIImage)
+//
+//
+//        }
+           
         }
         
         alert.addAction(addAction)
