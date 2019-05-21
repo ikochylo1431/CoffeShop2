@@ -26,7 +26,7 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         itemTableView.dataSource = self
         imagePickers?.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
         
-        addImagePickerToContainerView()
+        //addImagePickerToContainerView()
         db = Database.database().reference().child("item")
         
         item.target = revealViewController()!

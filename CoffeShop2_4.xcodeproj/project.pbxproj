@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3270009228F3CD3005BA7ED /* cellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3270008228F3CD3005BA7ED /* cellViewController.swift */; };
 		A37ABA4622568AAB005883C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37ABA4522568AAA005883C5 /* Assets.xcassets */; };
 		A38811A621B71281001A4B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38811A521B71281001A4B7E /* AppDelegate.swift */; };
 		A38811AB21B71281001A4B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38811A921B71281001A4B7E /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		35306F6A3D3FD7ED1062981C /* Pods_CoffeShop2_4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeShop2_4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880765B8D833E6CBB65021CD /* Pods-CoffeShop2_4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeShop2_4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeShop2_4/Pods-CoffeShop2_4.debug.xcconfig"; sourceTree = "<group>"; };
+		A3270008228F3CD3005BA7ED /* cellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellViewController.swift; sourceTree = "<group>"; };
 		A37ABA4522568AAA005883C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		A38811A221B71281001A4B7E /* CoffeShop2_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeShop2_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A38811A521B71281001A4B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				A3E104FF21E6892C001E7F32 /* ItemsViewController.swift */,
 				A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */,
 				A3B69206222DB7D800A698B0 /* CheckoutViewController.swift */,
+				A3270008228F3CD3005BA7ED /* cellViewController.swift */,
 				A38811A921B71281001A4B7E /* Main.storyboard */,
 				A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */,
 				AB5CA81E2229CB3300CB7528 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				A3B69207222DB7D800A698B0 /* CheckoutViewController.swift in Sources */,
 				A3E1050021E6892C001E7F32 /* ItemsViewController.swift in Sources */,
 				A3BC358321CBF26500A4C74C /* SWRevealViewController.m in Sources */,
+				A3270009228F3CD3005BA7ED /* cellViewController.swift in Sources */,
 				A3BC358521CBF52300A4C74C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

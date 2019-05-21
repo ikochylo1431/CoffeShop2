@@ -647,15 +647,37 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="H0P-fb-qL7">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="WpK-mJ-gx7" customClass="cellViewController" customModule="CoffeShop2_4" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="230" height="228"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="230" height="228"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXt-75-iUO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="230" height="228"/>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                            </subviews>
                                         </view>
+                                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="wXt-75-iUO" firstAttribute="leading" secondItem="WpK-mJ-gx7" secondAttribute="leading" id="4uh-Ii-fNm"/>
+                                            <constraint firstItem="wXt-75-iUO" firstAttribute="top" secondItem="WpK-mJ-gx7" secondAttribute="top" id="7Z3-1Q-jLa"/>
+                                            <constraint firstAttribute="bottom" secondItem="wXt-75-iUO" secondAttribute="bottom" id="hOU-wC-eWH"/>
+                                            <constraint firstAttribute="trailing" secondItem="wXt-75-iUO" secondAttribute="trailing" id="k6v-1I-A5T"/>
+                                        </constraints>
+                                        <size key="customSize" width="230" height="228"/>
+                                        <connections>
+                                            <outlet property="buttonName" destination="wXt-75-iUO" id="Lu3-aZ-WlL"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="cu0-Rs-8t7" id="HnC-yE-Bil"/>
+                                    <outlet property="delegate" destination="cu0-Rs-8t7" id="MRF-4r-PUq"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
