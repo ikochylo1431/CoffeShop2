@@ -8,7 +8,9 @@
 
 import UIKit
 
-class CheckoutViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class CheckoutViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UITableViewDelegate, UITableViewDataSource {
+    
+    
     
     let arrayForCollectionView: [String] = ["1", "2", "3", "4", "5", "6"]
     
@@ -33,8 +35,32 @@ class CheckoutViewController: UIViewController, UICollectionViewDelegate, UIColl
         item.target = revealViewController()!
         item.action = Selector("revealToggle:")
     }
+   
     
-
+    // Table View Code
+    
+    @IBOutlet weak var tableView: UITableView!
  
-
+    
+    var listForTableView = ["apple", "pear", "plum", "grape"]
+    
+   public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return (listForTableView.count)
+    }
+    
+   public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let anotherCell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "tableViewCell")
+    anotherCell.textLabel?.text = listForTableView[indexPath.row]
+    return anotherCell
+    }
+    // Clear Button
+    
+    @IBAction func clearButton(_ sender: UIButton) {
+     
+       listForTableView.removeAll()
+       tableView.reloadData()
+        
+    }
+    
+    
 }
