@@ -76,14 +76,17 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let nameOfItem = alert.textFields?[0]
             let itemDescription = alert.textFields?[1]
             let costOfItem = alert.textFields?[2]
-            let picture = alert.textFields?[3]
+           // let picture = alert.textFields?[3]
             let newItem = Item(name: (nameOfItem?.text)!, description: (itemDescription?.text)!, cost: Int((costOfItem?.text)!)!)
             self.db.child(newItem.name).child("Item Name").setValue(newItem.name)
             self.db.child(newItem.name).child("Item Description").setValue(newItem.description)
             self.db.child(newItem.name).child("Cost of Item").setValue(newItem.cost)
             self.itemArray.append(newItem)
+            print(self.itemArray.count)
             self.itemTableView.reloadData()
-            
+            print(nameOfItem?.text)
+            print(itemDescription?.text)
+            print(costOfItem?.text)
             
 //            if UIImagePickerController.isSourceTypeAvailable(.camera){
 //                self.imagePickers?.takePicture()
