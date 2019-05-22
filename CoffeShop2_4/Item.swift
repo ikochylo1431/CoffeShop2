@@ -12,13 +12,16 @@ class Item {
     var name: String = ""
     var description: String = ""
     var cost: Int = 0
+  //  var image: UIImage
     
     
     init(name: String, description: String, cost: Int) {
         self.name = name
         self.description = description
         self.cost = cost
+   //     self.image = image
     }
+
 }
 
 
