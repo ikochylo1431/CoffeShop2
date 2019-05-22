@@ -10,10 +10,7 @@ import UIKit
 
 class cellViewController: UICollectionViewCell {
 
-    @IBAction func button(_ sender: Any) {
-        
-        
-    }
+   
     
         
         

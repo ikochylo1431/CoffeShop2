@@ -57,7 +57,7 @@
                         <viewLayoutGuide key="safeArea" id="2Zm-8M-klJ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Transaction" id="v3p-lf-TAl">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="co7-4c-gXV"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="co7-4c-gXV"/>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="weg-4A-erX">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Imp-ZC-NCg">
                                 <rect key="frame" x="1043" y="10" width="303" height="30"/>
@@ -185,7 +185,7 @@
                         <viewLayoutGuide key="safeArea" id="bXg-Wx-UBd"/>
                     </view>
                     <navigationItem key="navigationItem" title="Items" id="qxu-b7-Odc">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="ky4-4S-b2g"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="ky4-4S-b2g"/>
                         <barButtonItem key="rightBarButtonItem" title="Add Item" id="ZtJ-ej-p4J">
                             <connections>
                                 <action selector="onAddButtonPressed:" destination="ulc-g6-f0i" id="dxx-gY-PTy"/>
@@ -506,7 +506,7 @@
                         <viewLayoutGuide key="safeArea" id="VG6-9b-LUG"/>
                     </view>
                     <navigationItem key="navigationItem" id="iKV-dU-H7G">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="BD0-j4-Hxb"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="BD0-j4-Hxb"/>
                     </navigationItem>
                     <connections>
                         <outlet property="calculatorNumbers" destination="DUG-Sz-g8l" id="X35-Fp-pfx"/>
@@ -550,7 +550,7 @@
                         <viewLayoutGuide key="safeArea" id="tXJ-Gg-UFN"/>
                     </view>
                     <navigationItem key="navigationItem" title="Reports" id="yRP-d5-Ov3">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="U7Y-n2-Xqu"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="U7Y-n2-Xqu"/>
                     </navigationItem>
                     <connections>
                         <outlet property="item" destination="U7Y-n2-Xqu" id="fMR-29-oQe"/>
@@ -586,7 +586,7 @@
                         <viewLayoutGuide key="safeArea" id="mKt-WX-20j"/>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="nrm-TR-uNM">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="UFp-Ps-JEU"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="UFp-Ps-JEU"/>
                     </navigationItem>
                     <connections>
                         <outlet property="item" destination="UFp-Ps-JEU" id="hpl-NP-ltl"/>
@@ -605,7 +605,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Items" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6J-Mb-m7V">
-                                <rect key="frame" x="1076" y="70" width="290" height="60"/>
+                                <rect key="frame" x="1076" y="20" width="290" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -618,6 +618,20 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="290" id="b6l-P0-l6f"/>
                                     <constraint firstAttribute="height" constant="767" id="kCb-b9-abn"/>
                                 </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tableViewCell" id="08Q-64-OoP">
+                                        <rect key="frame" x="0.0" y="28" width="290" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="08Q-64-OoP" id="2c2-oa-gzd">
+                                            <rect key="frame" x="0.0" y="0.0" width="290" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="cu0-Rs-8t7" id="91K-7v-Vp0"/>
+                                    <outlet property="delegate" destination="cu0-Rs-8t7" id="b8V-NG-Rzm"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrf-cK-xeU">
                                 <rect key="frame" x="1076" y="952" width="290" height="72"/>
@@ -632,6 +646,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearButton:" destination="cu0-Rs-8t7" eventType="touchUpInside" id="oN3-58-ihv"/>
+                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7GT-hF-OwT">
                                 <rect key="frame" x="0.0" y="70" width="1068" height="954"/>
@@ -682,10 +699,11 @@
                         <viewLayoutGuide key="safeArea" id="sXf-sM-sHB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Checkout" id="oiA-jM-QBc">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="D6r-OT-cdF"/>
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="D6r-OT-cdF"/>
                     </navigationItem>
                     <connections>
                         <outlet property="item" destination="D6r-OT-cdF" id="MQv-lk-n8J"/>
+                        <outlet property="tableView" destination="S9E-7s-2gh" id="UfD-pV-MFM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Mt-6t-Nk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1001,7 +1019,13 @@
                         <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="w2q-cW-opx"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4zx-tf-zdG"/>
+                    <navigationItem key="navigationItem" id="4zx-tf-zdG">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="7eS-rv-4xz">
+                            <connections>
+                                <segue destination="cu0-Rs-8t7" kind="show" id="hgW-xR-iQC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="giR-qh-Nwd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1095,6 +1119,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="1Vh-td-1wp"/>
-        <segue reference="FQX-dC-rox"/>
+        <segue reference="hgW-xR-iQC"/>
     </inferredMetricsTieBreakers>
 </document>
