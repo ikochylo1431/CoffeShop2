@@ -35,7 +35,7 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        itemTableView.reloadData()
+       itemTableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
