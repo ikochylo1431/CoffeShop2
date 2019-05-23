@@ -11,15 +11,13 @@ import Foundation
 class Item {
     var name: String = ""
     var description: String = ""
-    var cost: Int = 0
-  //  var image: UIImage
+    var cost: Double = 0
+
     
-    
-    init(name: String, description: String, cost: Int) {
+    init(name: String, description: String, cost: Double) {
         self.name = name
         self.description = description
         self.cost = cost
-   //     self.image = image
     }
 
 }
