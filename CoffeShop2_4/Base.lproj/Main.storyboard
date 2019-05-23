@@ -239,18 +239,8 @@
                                     <segue destination="fc2-jD-7qC" kind="custom" identifier="" customClass="SWRevealViewControllerSeguePushController" id="1Vh-td-1wp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mm8-O5-grq">
-                                <rect key="frame" x="0.0" y="340" width="451" height="162"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <state key="normal" title="  Items"/>
-                                <connections>
-                                    <segue destination="7OB-TR-eGu" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="aZx-YV-aTL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6P-Rb-4bT">
-                                <rect key="frame" x="0.0" y="510" width="451" height="162"/>
+                                <rect key="frame" x="0.0" y="607" width="451" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
@@ -259,18 +249,8 @@
                                     <segue destination="F9q-b0-vyn" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="PTt-jJ-7Xa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1R-yJ-9MQ">
-                                <rect key="frame" x="0.0" y="680" width="451" height="162"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <state key="normal" title="  Settings"/>
-                                <connections>
-                                    <segue destination="hyf-7X-nsF" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="eIN-wc-Q6r"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azQ-8w-WRh">
-                                <rect key="frame" x="0.0" y="850" width="451" height="162"/>
+                                <rect key="frame" x="0.0" y="816" width="451" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
@@ -280,13 +260,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inh-Kt-Ut6">
-                                <rect key="frame" x="0.0" y="170" width="451" height="162"/>
+                                <rect key="frame" x="0.0" y="209" width="451" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title=" Transactions"/>
                                 <connections>
                                     <segue destination="6xG-iP-SpU" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="2ef-gv-WUw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mm8-O5-grq">
+                                <rect key="frame" x="0.0" y="409" width="451" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80818895729999995" green="0.80818895729999995" blue="0.80818895729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <state key="normal" title="  Items"/>
+                                <connections>
+                                    <segue destination="7OB-TR-eGu" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="aZx-YV-aTL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -560,42 +550,6 @@
             </objects>
             <point key="canvasLocation" x="727.81844802342596" y="2238.8671875"/>
         </scene>
-        <!--SettingsViewController-->
-        <scene sceneID="kLR-A7-gjW">
-            <objects>
-                <viewController title="SettingsViewController" id="7Gr-TT-k0d" customClass="SettingsViewController" customModule="CoffeShop2_4" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="37e-l4-bDg">
-                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSz-Ht-8P8">
-                                <rect key="frame" x="625" y="492" width="117" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.80265278399999995" blue="0.98976807879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="zSz-Ht-8P8" firstAttribute="top" secondItem="mKt-WX-20j" secondAttribute="top" constant="422" id="5PZ-GQ-agX"/>
-                            <constraint firstItem="zSz-Ht-8P8" firstAttribute="leading" secondItem="mKt-WX-20j" secondAttribute="leading" constant="625" id="Crq-He-eJ7"/>
-                            <constraint firstItem="mKt-WX-20j" firstAttribute="bottom" secondItem="zSz-Ht-8P8" secondAttribute="bottom" constant="492" id="SDn-Ng-5Vg"/>
-                            <constraint firstItem="mKt-WX-20j" firstAttribute="trailing" secondItem="zSz-Ht-8P8" secondAttribute="trailing" constant="624" id="n5w-Nv-UHm"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="mKt-WX-20j"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Settings" id="nrm-TR-uNM">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="UFp-Ps-JEU"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="item" destination="UFp-Ps-JEU" id="hpl-NP-ltl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H1H-33-XkU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="727.81844802342596" y="1512.890625"/>
-        </scene>
         <!--CheckoutViewController-->
         <scene sceneID="qiO-sU-e7q">
             <objects>
@@ -605,7 +559,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Items" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6J-Mb-m7V">
-                                <rect key="frame" x="1076" y="20" width="290" height="60"/>
+                                <rect key="frame" x="1076" y="70" width="290" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -771,24 +725,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ic0-Ts-ktV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="44" y="780"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="D3J-fJ-aTa">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hyf-7X-nsF" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o8P-s6-JO1">
-                        <rect key="frame" x="0.0" y="20" width="1366" height="50"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="7Gr-TT-k0d" kind="relationship" relationship="rootViewController" id="dF8-z2-Ws6"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ngy-L2-gJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="44" y="1539"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PGW-Zm-EIj">
@@ -1128,6 +1064,7 @@
         <image name="Twenty Dollar" width="703" height="629"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="lIc-np-iYa"/>
         <segue reference="1Vh-td-1wp"/>
         <segue reference="hgW-xR-iQC"/>
     </inferredMetricsTieBreakers>

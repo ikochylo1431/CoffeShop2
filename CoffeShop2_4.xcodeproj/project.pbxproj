@@ -14,7 +14,6 @@
 		A38811B021B71286001A4B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38811AE21B71286001A4B7E /* LaunchScreen.storyboard */; };
 		A3B69207222DB7D800A698B0 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B69206222DB7D800A698B0 /* CheckoutViewController.swift */; };
 		A3BC358321CBF26500A4C74C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358121CBF26500A4C74C /* SWRevealViewController.m */; };
-		A3BC358521CBF52300A4C74C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358421CBF52300A4C74C /* SettingsViewController.swift */; };
 		A3BC358721CBF54C00A4C74C /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358621CBF54C00A4C74C /* ReportsViewController.swift */; };
 		A3BC358921CBF56300A4C74C /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BC358821CBF56300A4C74C /* TransactionsViewController.swift */; };
 		A3D8649E21F7AAF00062A4F8 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */; };
@@ -39,7 +38,6 @@
 		A3BC358021CBF26400A4C74C /* CoffeShop2_4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeShop2_4-Bridging-Header.h"; sourceTree = "<group>"; };
 		A3BC358121CBF26500A4C74C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		A3BC358221CBF26500A4C74C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		A3BC358421CBF52300A4C74C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A3BC358621CBF54C00A4C74C /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
 		A3BC358821CBF56300A4C74C /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		A3D8649D21F7AAF00062A4F8 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				A38811A521B71281001A4B7E /* AppDelegate.swift */,
-				A3BC358421CBF52300A4C74C /* SettingsViewController.swift */,
 				A3BC358621CBF54C00A4C74C /* ReportsViewController.swift */,
 				A3BC358821CBF56300A4C74C /* TransactionsViewController.swift */,
 				AB6CE3C622398B1500EE654E /* Item.swift */,
@@ -266,7 +263,6 @@
 				A3E1050021E6892C001E7F32 /* ItemsViewController.swift in Sources */,
 				A3BC358321CBF26500A4C74C /* SWRevealViewController.m in Sources */,
 				A3270009228F3CD3005BA7ED /* cellViewController.swift in Sources */,
-				A3BC358521CBF52300A4C74C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
