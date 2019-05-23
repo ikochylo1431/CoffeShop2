@@ -35,7 +35,7 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        itemTableView.reloadData()
+       itemTableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -77,7 +77,7 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let itemDescription = alert.textFields?[1]
             let costOfItem = alert.textFields?[2]
            // let picture = alert.textFields?[3]
-            let newItem = Item(name: (nameOfItem?.text)!, description: (itemDescription?.text)!, cost: Int((costOfItem?.text)!)!)
+            let newItem = Item(name: (nameOfItem?.text)!, description: (itemDescription?.text)!, cost: Int(Double((costOfItem?.text)!)!))
             self.db.child(newItem.name).child("Item Name").setValue(newItem.name)
             self.db.child(newItem.name).child("Item Description").setValue(newItem.description)
             self.db.child(newItem.name).child("Cost of Item").setValue(newItem.cost)
