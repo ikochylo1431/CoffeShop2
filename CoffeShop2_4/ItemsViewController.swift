@@ -23,6 +23,9 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        print(itemArray)
+        
         itemTableView.delegate = self
         itemTableView.dataSource = self
      //   imagePickers?.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
@@ -35,7 +38,7 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     override func viewWillAppear(_ animated: Bool) {
-       itemTableView.reloadData()
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
