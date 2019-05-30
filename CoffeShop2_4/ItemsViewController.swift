@@ -52,6 +52,7 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.textLabel?.text = itemArray[indexPath.row].name
         return cell
         
+        
     }
     
     

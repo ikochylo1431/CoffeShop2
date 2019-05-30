@@ -559,7 +559,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Items" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6J-Mb-m7V">
-                                <rect key="frame" x="1076" y="70" width="290" height="60"/>
+                                <rect key="frame" x="1076" y="20" width="290" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1064,7 +1064,6 @@
         <image name="Twenty Dollar" width="703" height="629"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lIc-np-iYa"/>
         <segue reference="1Vh-td-1wp"/>
         <segue reference="hgW-xR-iQC"/>
     </inferredMetricsTieBreakers>
